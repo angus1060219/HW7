@@ -1,0 +1,133 @@
+/* 全局樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0e0;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* 左側個人資訊樣式 */
+.profile {
+    flex: 1.2; /* 左側寬度比例 */
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.profile-info {
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* 右側內容樣式 */
+.content {
+    flex: 2; /* 右側寬度比例 */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h3 {
+    margin-top: 0;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* 音樂區域樣式 */
+.music-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.music-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.music-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f00;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/* 表單樣式 */
+#music-form {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#music-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#music-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#music-form button:hover {
+    background-color: #0056b3;
+}
+
+/* 按鈕樣式 */
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

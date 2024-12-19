@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Homework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Today's Homework</h1>
+    </header>
+    <main class="container">
+        <!-- 左側個人資訊 -->
+        <section class="profile">
+            <img src="3.png" alt="Profile Picture">
+            <div class="profile-info">
+                <h2 id="name-display">Angus Chou <button id="edit-button">edit</button></h2>
+                <input type="text" id="name-input" style="display: none;">
+                <h3>ABOUT ME</h3>
+                <p>
+                    Hello, my name is Hsin-Yuan Chou. I am a second-year student in the Land Survey and Information Division 
+                    at National Chengchi University. I am passionate about learning and enjoy working on projects related to GIS 
+                    and economics. In my free time, I like exploring new skills and helping others through tutoring. I believe my 
+                    enthusiasm for knowledge and dedication to personal growth will help me achieve my goals.
+                </p>
+                <h3>CONTACT</h3>
+                <p>112207415@nccu.edu.tw</p>
+            </div>
+        </section>
+
+        <!-- 右側內容 -->
+        <section class="content">
+            <h3>Education</h3>
+            <ul>
+                <li>2023 – now: National Chengchi University, Department of LE</li>
+                <li>2020 – 2023: Taoyuan Senior High School</li>
+                <li>2018 – 2021: Middle School Graduation</li>
+            </ul>
+
+            <h3>Homework List</h3>
+            <ul>
+                <li><a href="https://github.com/angus1060219/HW1.git" target="_blank">HW1</a></li>
+                <li><a href="https://github.com/angus1060219/HW2.git" target="_blank">HW2</a></li>
+                <li><a href="https://github.com/angus1060219/HW3.git" target="_blank">HW3</a></li>
+            </ul>
+
+            <h3>Favorite Music</h3>
+            <div id="music-container" class="music-container">
+                <div class="music-item">
+                    <img src="youtube.jpg" alt="Music">
+                    <p>Runaway</p>
+                </div>
+                <div class="music-item">
+                    <img src="youtube.jpg" alt="Music">
+                    <p>普通朋友</p>
+                </div>
+                <div class="music-item">
+                    <img src="youtube.jpg" alt="Music">
+                    <p>二十二</p>
+                </div>
+                <div class="music-item">
+                    <img src="youtube.jpg" alt="Music">
+                    <p>寂寞的季節</p>
+                </div>
+                <button id="add-button">add</button>
+            </div>
+
+            <div id="music-form" class="music-form">
+                <input type="text" id="music-link" placeholder="音樂連結" required>
+                <input type="text" id="music-name" placeholder="音樂名稱" required>
+                <button id="submit-button">Submit</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
